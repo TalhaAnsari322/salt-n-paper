@@ -1,0 +1,2248 @@
+@font-face {
+    font-family: "futurak";
+    src: url(futurak.ttf);
+}
+
+body {
+    margin: 0px;
+    background-color: black;
+    padding: 0px;
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+    padding: 18px 60px; 
+    height: 50px;  
+}
+
+.logo>img {
+    width: 120px;
+}
+
+.menu>li {
+   display: inline-block;
+   color: #fff;
+   margin-right: 20px;
+}
+
+.logo,
+.right-side {
+    display: inline-block;
+}
+
+.logo {
+    width: 30%;
+    /* background-color: blue; */
+    vertical-align: middle;
+}
+
+.right-side {
+    /* background-color: red; */
+    width: 60%;
+    vertical-align: middle;
+    text-align: right;
+
+}
+
+.btns>button {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 35px;
+}
+.btn-one{
+    background-color: transparent;
+    color: #fff;
+    border:1px solid #fff !important;
+}
+
+.btn-two{
+    background-color: red;
+    border: 1px solid red !important;
+    color: #fff;
+}
+
+.btn-two>i {
+    background-color: #fff;
+    color:red;
+    padding: 2px;
+    margin-left: 7px;
+    border-radius: 35px;
+}
+
+.menu{
+    display: inline-block;
+}
+
+.btns{
+    display: inline-block
+}
+
+.right-side{
+    width: -15px;
+    margin: 2px;
+}
+
+.full-pic{
+    height: 500px;
+    width: 100%;
+
+}
+
+.intro{
+    margin: 85px 10px;
+    padding: 45px;
+    background-color: black;
+    text-align: center;
+
+    width: 100%;
+    height: 150px;
+}
+
+.intro>h2{
+    color: #fff;
+    width: 100%;
+    height: 12px;
+    font-size: 35px;
+}
+
+.intro>p{
+    color: #fff;
+    margin: 45px;
+}
+
+.intro>h2>span{
+    font-family:"futurak";
+}
+
+.card-logo{
+    width: 285px;
+    height: 120px;
+    background-color: rgb(25, 33, 49);
+    border-radius: 4px;
+}
+
+.card-logo-one{
+    width: 285px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.card-logo-three{
+    width: 285px;
+    height: 120px;
+    background-color: rgb(25, 33, 49);
+    border-radius: 4px;
+}
+
+
+.cards{
+    width: 60%;
+    height: 200px;
+}
+.card-logo>img{
+    width: 280px;
+}
+ 
+.btn>button{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    margin-top: 20px;
+    
+}
+
+.card-logo-two{
+    width: 285px;
+    height: 120px;
+    background-color:#fff;
+    border-radius: 4px;
+}
+
+.card-logo-three{
+    width: 285px;
+    height: 120px;
+    background-color:#fff;
+    border-radius: 4px;
+}
+
+.cards{
+    width: 285px;
+    padding: 10px;
+    display: flex;
+    display: inline-block;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.card-container{
+    text-align: center;
+}
+
+.cards-container-center{
+    
+    display: inline-block;
+}
+
+.front-page{
+    position: relative;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 70px;
+}
+
+.front-page>img{
+    vertical-align: middle;
+    border-style: none; 
+    justify-content: right;
+   margin-right: 20px;
+    
+}
+
+.logo-text-hold{
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.front-page{
+    margin-top: 10%;
+    width: 100%;
+}
+
+.front-page-1{
+    margin-left: 65%;
+    margin-top: -120px;
+}
+
+.lazy{
+    width: 100%;
+}
+
+.logo-text-hold{
+    color: #fff;
+    width: 10px;
+    padding: 10px;
+}
+
+.heading{
+    width: 100%;
+}
+
+.heading-1{
+    margin-left: 400px;
+    color: #fff;
+    font-size: 50px;
+    font-family: futurak;
+    margin-top: -50px;
+    
+}
+
+.heading-2{
+    color: #fff;
+    font-size: 50px;
+    margin-left: 300px;
+    margin-top: -40px;
+}
+
+.para-1{
+    color: #fff;
+    margin-left: 230px;
+    margin-top: -30px;
+}
+
+.right-pic{
+    margin-left: 38%;
+    margin-top: -20%;
+}
+
+.baloon{
+    width: 70%;
+}
+
+.islam{
+    margin-top: -350px;
+    font-size: 20px;
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.aashiq,h1>span{
+    color:#fff;
+    font-family: 'futurak';
+}
+
+.ashiq-2{
+    ont-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    padding-left: 15%;
+    padding-top: -10px;
+    margin-top: -55px;
+}
+
+.paragiraph{
+    color: #fff;
+    margin-top: -15px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.number{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: -5px;
+}
+
+ .btn-15{
+    margin-top: 130px;
+    margin-left: 0px;
+}
+
+.btn-15>button{
+    border-radius: 30px;
+    width: 13%;
+    height: 60px;
+    background-color: transparent;
+    color: #fff;
+    border-color: #c7c3c3;
+
+}
+
+.btn-15>button i{
+    background-color: #fff;
+    border-radius: 50px;
+    color: red;
+    padding: 7px;
+    margin: 10px;
+    height: 13px;
+    margin-left:20px;
+}
+
+.lazy-main-2{
+    margin-top: 90px;
+    margin-left: -50px;
+}
+
+.lazy-main-2>img{
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+    object-fit: cover;
+}
+
+.faislabad-1{
+    
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.faislabad-1{
+    margin-left: 500px;
+    letter-spacing: 2px;
+    
+}
+
+.islam-1{
+    margin-top: -300px;
+    font-size: 19px;
+    font-family: 'apercu';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.aashiq-12,h1>span{
+    color:#fff;
+    font-family: 'futurak';
+}
+
+.stylish{
+    font-family: none;
+    font-family: 'apercu'!important;
+    font-weight: 400px;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+
+.ashiq-23{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    padding-left: 42%;
+    padding-top: -10px;
+    margin-top: -52px;
+}
+
+.paragiraph-23{
+    color: #fff;
+    margin-top: -5px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    
+}
+
+.number-2{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: -5px;
+    letter-spacing: 2px;
+}
+
+ .btn-25{
+    margin-top: 130px;
+    margin-left: 0px;
+}
+
+.btn-25>button{
+    border-radius: 30px;
+    width: 21%;
+    height: 60px;
+    background-color: transparent;
+    color: #fff;
+    border-color: #c7c3c3;
+
+}
+
+.btn-25>button i{
+    background-color: #fff;
+    border-radius: 50px;
+    color: red;
+    padding: 7px;
+    margin: 10px;
+    height: 13px;
+    margin-left:20px;
+}
+
+.left-pic-1{
+    margin-left: -500px;
+    margin-top: 50px;
+}
+
+.left-pic-1>h3{
+    color: #ED1C24;
+    font-family: 'apercu';
+    font-size: 20px;
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+}
+
+.left-pic-1>h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'futurak';
+
+}
+
+.left-pic-1>.ashiq-26{
+    font-family: none;
+    margin-top: -34px;
+    margin-left: 200px;
+    letter-spacing: 2px;
+
+}
+
+.left-pic-1>.paragiraph-150{
+    color: #c7c3c3;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.left-pic-1>.number-120{
+    color: #c7c3c3;
+}
+
+.btn-170>button{
+    border-radius: 30px;
+    width: 160px;
+    height: 60px;
+    background-color: transparent;
+    color: #fff;
+    border-color: #c7c3c3;
+}
+
+.btn-170>button>i{
+background-color: #fff;
+border-radius: 50px;
+color: red;
+padding: 7px;
+margin: 10px;
+height: 13px;
+margin-left:20px;
+}
+
+.div-number-501{
+    margin-left: 500px;
+    margin-top: -210px;
+}
+
+.chapter-1{
+    color: #fff;
+    margin-left: 500px;
+    font-family: 'futurak';
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: -110px;
+}
+
+.chapter-1>.chapter-2{
+    font-family: 'apercu';
+    margin-left: -70px;
+    margin-top: -30px;
+}
+
+.chapter-pic-1{
+    width: 350px;
+    margin-top: 500px;
+    margin: 100px;
+}
+
+.chapter-pic-2{
+    width: 350px;
+    margin-top: 500px;
+    margin: 100px;
+    margin-left: -50px;
+}
+
+.chapter-2-0{
+    margin-top: -354px;
+    margin-left: 900px;
+}
+
+.talha-kijaan{
+    color: #fff;
+    margin-left: 160px;
+    margin-bottom: -690px;
+
+}
+
+.talha-kijaan>p{
+    color: #ED1C24;
+    letter-spacing: 7px;
+    font-size: 11px;
+    margin-left: 10px
+}
+
+.talha-kijaan>h1{
+    font-family: 'futurak';
+    margin-left: -40px;
+    margin-top: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.talha-kijaan>h2{
+    margin-top: -46px;
+    margin-left: 150px;
+    letter-spacing: 3px;
+    font-size: 30px;
+
+}
+
+.talha-kijaan>p.jaan-ki{
+    color: #c7c3c3;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: -1px;
+    margin-left: 10px;
+}
+
+.talha-kijaan>p.parwa{
+    color: #c7c3c3;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.btn-sheraz>button{
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    gap: 10px;
+    letter-spacing: 1px;
+    border-color: #c7c3c3;
+    background-color: transparent;
+    border-radius: 35px;
+}
+
+.btn-sheraz>button>i{
+    background-color: #c7c3c3;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 35px;
+    color: #ED1C24;
+}
+    
+
+.jaanki-taha{
+    color: #fff;
+    margin-left: 575px;
+    margin-top: -15px;
+}
+
+
+.taha-kijaan>p{
+    color: #ED1C24;
+    letter-spacing: 7px;
+    font-size: 11px;
+    margin-left: 10px
+}
+
+.taha-kijaan>h1{
+    font-family: 'futurak';
+    margin-left: -40px;
+    margin-top: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.taha-kijaan>h2{
+    margin-top: -46px;
+    margin-left: 150px;
+    letter-spacing: 3px;
+    font-size: 30px;
+
+}
+
+.taha-kijaan>p.jaan-ki{
+    color: #c7c3c3;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: -1px;
+    margin-left: -18px;
+}
+
+.taha-kijaan>p.parwa{
+    color: #c7c3c3;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.btn-shehmir>button{
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    gap: 10px;
+    letter-spacing: 1px;
+    border-color: #c7c3c3;
+    background-color: transparent;
+    border-radius: 35px;
+}
+
+.btn-shehmir>button>i{
+    background-color: #c7c3c3;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 35px;
+    color: #ED1C24;
+}
+
+.jaanki-shehmir{
+    color: #fff;
+    margin-left: 400px;
+    margin-top: -210px;
+}
+
+
+.shehmir-kijaan>p{
+    color: #ED1C24;
+    letter-spacing: 7px;
+    font-size: 11px;
+    margin-left: 25px
+}
+
+.shehmir-kijaan>h1{
+    font-family: 'futurak';
+    margin-left: -40px;
+    margin-top: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.shehmir-kijaan>h2{
+    margin-top: -46px;
+    margin-left: 150px;
+    letter-spacing: 3px;
+    font-size: 30px;
+
+}
+
+.shehmir-kijaan>p.jaan-ki{
+    color: #c7c3c3;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: -1px;
+    margin-left: 15px;
+}
+
+.shehmir-kijaan>p.parwa{
+    color: #c7c3c3;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.btn-sheroz>button{
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    gap: 10px;
+    letter-spacing: 1px;
+    border-color: #c7c3c3;
+    background-color: transparent;
+    border-radius: 35px;
+}
+
+.btn-sheroz>button>i{
+    background-color: #c7c3c3;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 35px;
+    color: #ED1C24;
+}
+
+
+
+
+
+
+.humaiyo-pic-9{
+    width: 350px;
+    margin-top: 500px;
+    margin: 100px;
+    margin-left: -880px;
+}
+
+.humaiyo-pic-8{
+    width: 350px;
+    margin-top: 500px;
+    margin: 100px;
+    margin-left: -50px;
+}
+
+.humaiyo-7-0{
+    margin-top: -354px;
+    margin-left: -70px;
+}
+
+.humaiyo>.humaiyo-7-0>img{
+    margin-bottom: -100px;
+}
+
+.humaiyo-kijaan-number2{
+    color: #fff;
+    margin-left: -820px;
+    margin-bottom: -690px;
+
+}
+
+.humaiyo-kijaan-number2>p{
+    color: #ED1C24;
+    letter-spacing: 7px;
+    font-size: 11px;
+    margin-left: 50px
+}
+
+.humaiyo-kijaan-number2>h1{
+    font-family: 'futurak';
+    margin-left: -40px;
+    margin-top: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.humaiyo-kijaan-number2>h2{
+    margin-top: -46px;
+    margin-left: 150px;
+    letter-spacing: 3px;
+    font-size: 30px;
+
+}
+
+.humaiyo-kijaan-number2>p.jaan-ki{
+    color: #c7c3c3;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: -1px;
+    margin-left: -50px;
+}
+
+.humaiyo-kijaan-number2>p.parwa{
+    color: #c7c3c3;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.btn-humaiyo-sath>button{
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    gap: 10px;
+    letter-spacing: 1px;
+    border-color: #c7c3c3;
+    background-color: transparent;
+    border-radius: 35px;
+}
+
+.btn-humaiyo-sath>button>i{
+    background-color: #c7c3c3;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 35px;
+    color: #ED1C24;
+}
+    
+
+.jaanki-humaiyo-zabardast{
+    color: #fff;
+    margin-left: -400px;
+    margin-top: 485px;
+}
+
+
+.humaiyo-kijaan-ilaqa>p{
+    color: #ED1C24;
+    letter-spacing: 7px;
+    font-size: 11px;
+    margin-left: 70px
+}
+
+.humaiyo-kijaan-ilaqa>h1{
+    font-family: 'futurak';
+    margin-left: -50px;
+    margin-top: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.humaiyo-kijaan-ilaqa>h2{
+    margin-top: -46px;
+    margin-left: 140px;
+    letter-spacing: 3px;
+    font-size: 30px;
+
+}
+
+.humaiyo-kijaan-ilaqa>p.jaan-ki{
+    color: #c7c3c3;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: -1px;
+    margin-left: -80px;
+}
+
+.humaiyo-kijaan-ilaqa>p.jaan-ki,pre{
+    margin-top: -10px;
+}
+
+.humaiyo-kijaan-ilaqa>p.parwa{
+    color: #c7c3c3;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.btn-humaiyo-ilaqa>button{
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    gap: 10px;
+    letter-spacing: 1px;
+    border-color: #c7c3c3;
+    background-color: transparent;
+    border-radius: 35px;
+}
+
+.btn-humaiyo-ilaqa>button>i{
+    background-color: #c7c3c3;
+    padding: 10px;
+    /* margin-left: 5px; */
+    border-radius: 35px;
+    color: #ED1C24;
+}
+
+.jaanki-humaiyo-shapatar{
+    color: #fff;
+    margin-left: 400px;
+    margin-top: -220px;
+
+}
+
+
+.humaiyo-kijaan-love>p{
+    color: #ED1C24;
+    letter-spacing: 7px;
+    font-size: 11px;
+    margin-left: 30px
+}
+
+.humaiyo-kijaan-love>h1{
+    font-family: 'futurak';
+    margin-left: -40px;
+    margin-top: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.humaiyo-kijaan-love>h2{
+    margin-top: -46px;
+    margin-left: 150px;
+    letter-spacing: 3px;
+    font-size: 30px;
+
+}
+
+.humaiyo-kijaan-love>p.jaan-ki{
+    color: #c7c3c3;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: -11px;
+    margin-left: -28px;
+}
+
+.humaiyo-kijaan-love>p.parwa{
+    color: #c7c3c3;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.btn-humaiyo-1>button{
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    gap: 10px;
+    letter-spacing: 1px;
+    border-color: #c7c3c3;
+    background-color: transparent;
+    border-radius: 35px;
+}
+
+.btn-humaiyo-1>button>i{
+    background-color: #c7c3c3;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 35px;
+    color: #ED1C24;
+}
+
+
+
+.new-class{
+    display: flex;
+    justify-content: space-between;
+    padding: -10px;
+    margin: 50px;
+}
+
+.D-H-A-Lyrics{
+    color: #ED1C24;
+    margin-left: 150px;
+    
+
+}
+
+.D-H-A-Lyrics>h1{
+    margin-left: -130px;
+    margin-top: -15px;
+    color: #fff;
+    font-family: 'futurak';
+}
+
+.D-H-A-Lyrics>h2{
+    margin-top: -55px;
+    margin-left: 60px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.D-H-A-Lyrics>.DHA-1{
+    color: #fff;
+    margin-left: -70px;
+    margin-top: -15px;
+}
+
+.D-H-A-Lyrics>.DHA-2{
+    color: #fff;
+    margin-left: -50px;
+    margin-top: -12px;
+}
+
+.btn-DHA-1>button{
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    gap: 10px;
+    letter-spacing: 1px;
+    border-color: #c7c3c3;
+    background-color: transparent;
+    border-radius: 35px;
+    margin-left: -80px;
+}
+
+.btn-DHA-1>button>i{
+    background-color: #c7c3c3;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 35px;
+    color: #ED1C24;
+}
+
+
+
+
+
+.D-H-A-Lyrics-2{
+    color: #ED1C24;
+    margin-left: 120px;
+    
+
+}
+
+.D-H-A-Lyrics-2>h1{
+    margin-left: -100px;
+    margin-top: -15px;
+    color: #fff;
+    font-family: 'futurak';
+}
+
+.D-H-A-Lyrics-2>h2{
+    margin-top: -55px;
+    margin-left: 90px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.D-H-A-Lyrics-2>.DHA-11{
+    color: #fff;
+    margin-left: -110px;
+    margin-top: -15px;
+}
+
+.D-H-A-Lyrics-2>.DHA-112{
+    color: #fff;
+    margin-left: -10px;
+    margin-top: -12px;
+}
+
+.D-H-A-Lyrics-2>.DHA-21{
+    color: #fff;
+    margin-left: -15px;
+    margin-top: -12px;
+}
+
+.btn-DHA-11>button{
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    gap: 10px;
+    letter-spacing: 1px;
+    border-color: #c7c3c3;
+    background-color: transparent;
+    border-radius: 35px;
+    margin-left: -80px;
+}
+
+.btn-DHA-11>button>i{
+    background-color: #c7c3c3;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 35px;
+    color: #ED1C24;
+}
+
+
+
+
+
+.bikeride-2{
+    color: #ED1C24;
+    margin-left: 120px;
+    
+
+}
+
+.bikeride-2>h1{
+    margin-left: -100px;
+    margin-top: -15px;
+    color: #fff;
+    font-family: 'futurak';
+}
+
+.bikeride-2>h2{
+    margin-top: -55px;
+    margin-left: 90px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.bikeride-2>.ride-1{
+    color: #fff;
+    margin-left: -50px;
+    margin-top: -15px;
+}
+
+
+.bikeride-2>.ride-3{
+    color: #fff;
+    margin-left: -25px;
+    margin-top: -12px;
+}
+
+.btn-ride-11>button{
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    gap: 10px;
+    letter-spacing: 1px;
+    border-color: #c7c3c3;
+    background-color: transparent;
+    border-radius: 35px;
+    margin-left: -45px;
+}
+
+.btn-ride-11>button>i{
+    background-color: #c7c3c3;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 35px;
+    color: #ED1C24;
+}
+
+
+
+
+
+
+
+.hvac-1>h1{
+   color: #fff;
+   text-align: center;
+   font-family: 'futurak';
+   font-size: 60px;
+
+}
+
+.hvac-1>h2{
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    margin-top: -50px;
+}
+
+.hvac-main{
+    margin-top: -300px;
+    margin-left: 650px;
+    /* background-color:rgba(255, 255, 255, 0.06); */
+}
+
+.hvac-main>.hvac-red{
+    color: #ED1C24;
+    letter-spacing: 10px;
+}
+
+.hvac-main>h1{
+    color: #fff;
+    font-family: 'futurak';
+}
+
+.hvac-main>h2{
+    color: #fff;
+    margin-top: -55px;
+    margin-left: 195px;
+    font-size: 35px;
+}
+
+.hvac-main>p{
+    color: #c7c3c3;
+    margin-top: -10px;
+}
+
+.btn-912>button{
+    color: #fff;
+    padding: 10px;
+    padding-left: 40px;
+    gap: 10px;
+    letter-spacing: 1px;
+    border-color: #c7c3c3;
+    background-color:#28a745;
+    border-radius: 35px;
+    margin-left: -20px;
+    margin-top: 30px;
+    margin: 10px;
+}
+
+.btn-912>button>i{
+    background-color: #c7c3c3;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 35px;
+    color: #ED1C24;
+
+}
+
+
+.opening{
+    margin-top: 100px;
+    color: #fff;
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+.opening-1>h1{
+    font-family: 'futurak';
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+
+.opening-1>h2{
+    margin-top: 10px;
+    font-size: 50px;
+    margin-right: 100px;
+    margin-bottom: -62px;
+}
+
+.opening-1>h3{
+    margin-left: 500px;
+    font-size: 25px;
+}
+
+.opening-cards>.cards-1>img{
+    margin-top: 15px;
+}
+
+.opening-cards>.cards-1{
+    background-color: #fff;
+    width: 300px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.opening-cards>.cards-1>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards>.cards-1>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards>.cards-1>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards>.cards-1>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.opening-cards>.cards-1>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;   
+}
+
+
+
+
+
+
+/* 
+.opening-1>h3{
+    margin-left: 500px;
+    font-size: 25px;
+} */
+
+.opening-cards-11>.cards-1>img{
+    margin-top: 15px;
+}
+
+.opening-cards-11>.cards-11{
+    background-color: #fff;
+    width: 400px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.opening-cards-11>.cards-11>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards-11>.cards-11>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards-11>.cards-11>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards-11>.cards-11>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.opening-cards>.cards-1>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;   
+}
+.opening-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+}
+
+
+
+
+
+
+
+.cards-2{
+    margin: 50px;
+    padding: 10px;
+}
+
+
+
+
+.opening-cards>.cards-2>img{
+    margin-top: 15px;
+}
+
+.opening-cards>.cards-2{
+    background-color: #fff;
+    width: 400px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.opening-cards>.cards-2>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards>.cards-2>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards>.cards-2>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards>.cards-2>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.opening-cards>.cards-2>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;   
+}
+
+
+
+
+
+
+.opening-cards-11>.cards-1>img{
+    margin-top: 15px;
+}
+
+.opening-cards-11>.cards-11{
+    background-color: #fff;
+    width: 300px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.opening-cards-11>.cards-11>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards-11>.cards-11>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards-11>.cards-11>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards-11>.cards-11>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.opening-cards>.cards-1>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;   
+}
+
+
+
+
+
+
+
+
+
+
+.opening-cards>.cards-3>img{
+    margin-top: 15px;
+}
+
+.opening-cards>.cards-3{
+    background-color: #fff;
+    width: 300px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.opening-cards>.cards-3>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards>.cards-3>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards>.cards-3>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards>.cards-3>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.opening-cards>.cards-3>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.opening-cards-1>.cards-4>img{
+    margin-top: 15px;
+}
+
+.opening-cards-1>.cards-4{
+    background-color: #fff;
+    width: 300px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.opening-cards-1>.cards-4>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards-1>.cards-4>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards-1>.cards-4>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards-1>.cards-4>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.opening-cards-1>.cards-4>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 2px;   
+    margin-top: -10px;
+}
+
+
+
+
+
+
+.namz{
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+.opening-cards-1{
+    display: flex;
+    gap: 50px;
+}
+
+.opening-cards-1>.cards-5>img{
+    margin-top: 15px;
+}
+
+.opening-cards-1>.cards-5{
+    background-color: #fff;
+    width: 300px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.opening-cards-1>.cards-5>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards-1>.cards-5>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards-1>.cards-5>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards-1>.cards-5>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.opening-cards-1>.cards-5>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 2px;   
+    margin-top: -10px;
+}
+
+
+
+
+.opening-cards-1>.cards-6>img{
+    margin-top: 15px;
+}
+
+.opening-cards-1>.cards-6{
+    background-color: #fff;
+    width: 300px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.opening-cards-1>.cards-6>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards-1>.cards-6>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards-1>.cards-6>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards-1>.cards-6>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.opening-cards-1>.cards-6>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 2px;   
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+.opening-cards-2{
+    display: flex;
+    gap: 50px;
+}
+
+.opening-cards-2>.cards-7>img{
+    margin-top: 15px;
+}
+
+.opening-cards-2>.cards-7{
+    background-color: #fff;
+    width: 300px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.opening-cards-2>.cards-7>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards-2>.cards-7>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards-2>.cards-7>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards-2>.cards-7>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.opening-cards-2.cards-7>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;   
+}
+
+
+
+
+.opening-cards-2>.cards-7>img{
+    margin-top: 15px;
+}
+
+.opening-cards-2>.cards-7{
+    background-color: #fff;
+    width: 300px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.opening-cards-2>.cards-7>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards-2>.cards-7>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards-2>.cards-7>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards-2>.cards-7>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.opening-cards-2>.cards-7>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+.opening-cards-2>.cards-8>img{
+    margin-top: 15px;
+}
+
+.opening-cards-2>.cards-8{
+    background-color: #fff;
+    width: 300px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.opening-cards-2>.cards-8>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards-2>.cards-8>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards-2>.cards-8>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards-2>.cards-8>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.opening-cards-2.cards-8>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;   
+}
+
+
+
+
+.opening-cards-2>.cards-8>img{
+    margin-top: 15px;
+}
+
+.opening-cards-2>.cards-8{
+    background-color: #fff;
+    width: 300px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.opening-cards-2>.cards-8>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards-2>.cards-8>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards-2>.cards-8>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards-2>.cards-8>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.opening-cards-2>.cards-8>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;   
+}
+
+
+.opening-cards-2>.cards-9>img{
+    margin-top: 15px;
+}
+
+.opening-cards-2>.cards-9{
+    background-color: #fff;
+    width: 300px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.opening-cards-2>.cards-9>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards-2>.cards-9>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards-2>.cards-9>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards-2>.cards-9>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.opening-cards-2.cards-9>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;   
+}
+
+
+
+
+.opening-cards-2>.cards-9>img{
+    margin-top: 15px;
+}
+
+.opening-cards-2>.cards-9{
+    background-color: #fff;
+    width: 300px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.opening-cards-2>.cards-9>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards-2>.cards-9>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards-2>.cards-9>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards-2>.cards-9>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.opening-cards-2>.cards-9>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 2px;   
+    margin-top: -10px;
+}
+
+
+
+
+.namz-1{
+    margin-top: -100px;
+    padding-bottom: 70px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+
+.opening-cards-3{
+    display: flex;
+    gap: 50px;
+}
+
+
+
+.opening-cards-3>.cards-7{
+    text-align: center;
+}
+
+.opening-cards-3>.cards-7>img{
+    margin-top: 15px;
+}
+
+.opening-cards-3>.cards-7{
+    background-color: #fff;
+    width: 300px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.opening-cards-3>.cards-7>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards-3>.cards-7>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards-3>.cards-7>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards-3>.cards-7>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.opening-cards-3>.cards-7>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;   
+    margin-top: -10px;
+}
+
+
+
+
+
+.opening-cards-3>.cards-8{
+    text-align: center;
+}
+
+
+
+
+.opening-cards-3>.cards-8>img{
+    margin-top: 15px;
+}
+
+.opening-cards-3>.cards-8{
+    background-color: #fff;
+    width: 300px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.opening-cards-3>.cards-8>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards-3>.cards-8>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards-3>.cards-8>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards-3>.cards-8>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.opening-cards-3>.cards-8>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;   
+    margin-top: -10px;
+}
+
+
+
+.opening-cards-3>.cards-9{
+    text-align: center;
+}
+
+
+.opening-cards-3>.cards-9>img{
+    margin-top: 15px;
+}
+
+.opening-cards-3>.cards-9{
+    background-color: #fff;
+    width: 300px;
+    margin-bottom: -40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.opening-cards-3>.cards-9>p{
+    color: #ED1C24;
+    font-size: 10px;
+    letter-spacing: 6px;
+}
+
+.opening-cards-3>.cards-9>h1{
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+
+.opening-cards-3>.cards-9>.cards-black{
+    color: black;
+    margin-top: -40px;
+    font-size: 20px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+
+}
+
+.opening-cards-3>.cards-9>.cards-black-1{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 3px;
+    
+}
+
+.opening-cards-3>.cards-9>.cards-black-2{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 4px;   
+    margin-top: -10px;
+}
+
+
+
+
+        /* next */
+
+
+.anus>.shafeeq{
+    justify-content: space-between;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+.noman>.ayza{
+    margin-top: 100px;
+    background-color: #252424;
+}
+
+.noman>.ayza>img{
+    margin-top: 70px;
+    margin-left: 50px;
+    color: black;
+}
+
+.noman>.talha-khan{
+    margin-top: -450px;
+    margin-left: 90px;
+}
+
+.noman>.talha-khan>p{
+    width: 400px;
+    margin-top: 40px;
+    font-size: 19px;
+    color: #c7c3c3;
+}
+
+.ashrafbhai{
+    margin-top: -300px;
+    margin-left:550px;
+}
+
+.ashrafbhai>ul>li{
+    list-style: none;
+    color: #c7c3c3;
+}
+
+.shahid{
+    margin-top: -230px;
+    margin-left: 720px;   
+    color: #c7c3c3;
+}
+
+.shahid>ul>li{
+    list-style: none;
+
+}
+
+
+.endhai{
+    margin-top: -285px;
+    margin-left: 999px;   
+    color: #c7c3c3;
+}
+
+.endhai>ul>li{
+    list-style: none;
+    color: #c7c3c3;
+}
+
+.endhai>ul>li>i{
+    width: 100px;
+    background-color: #fff;
+}
